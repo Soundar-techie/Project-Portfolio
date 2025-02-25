@@ -1,9 +1,11 @@
 const About = () => {
     return (
-        <div>
+         //try bg-[#8B691F]
+        <div className="bg-[#6f96ef] rounded-[600px]"> 
+        
             <div className="text-center mt-[100px] bg-#BBCBDF">
                 <div className="w-full flex justify-center">
-                    <p className="bg-[#c9c5c5] text-[17px] w-[300px] p-0.5 rounded-2xl">TUNE UP YORSELF WITH TUNEUP</p>
+                    <p className="bg-[#c9c5c5] text-[17px] w-[300px] p-0.5 rounded-2xl mt-4">TUNE UP YORSELF WITH TUNEUP</p>
                 </div>
                 <div className="text-7xl my-20 flex justify-center flex-col w-full" >
                     <h1>We make <span className="bg-[#0c0c18] text-[white] italic  rounded-[15px] px-4 pb-3">lmpossible</span>  </h1>
